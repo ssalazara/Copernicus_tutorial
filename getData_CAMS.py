@@ -1,7 +1,7 @@
 import cdsapi
 
 #Instanciamos el cliente para solicitar la información
-c = cdsapi.Client()
+c = cdsapi.Client(apikey='YOUR_API_KEY')
 
 #Especificamos la fuente a la que consultamos la información
 c.retrieve(
